@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="keywords" content="H5,HTML5,3D,WEBGL,AR,VR,ANDROID,iOS">
+    <meta name="description" content="H5TU.com 技术与艺术的完美结合 商务合作 微信:le3d618 QQ:371691096">
+    <link type="text/css" href="css/style.css?v=85200" rel="stylesheet">
+    <link type="text/css" href="css/animate.css?v=520" rel="stylesheet">
+    <title>WECHAT_EMPTY_TITLE</title>
+    <script src="https://hm.baidu.com/hm.js?83f3f55b7cce2a7d9f7ae0357fa0784e"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <style id="__WXWORK_INNER_SCROLLBAR_CSS">
+        ::-webkit-scrollbar {
+            width: 12px !important;
+            height: 12px !important;
+        }
+
+        ::-webkit-scrollbar-track:vertical {}
+
+        ::-webkit-scrollbar-thumb:vertical {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border: 2px solid transparent !important;
+        }
+
+        ::-webkit-scrollbar-track:horizontal {}
+
+        ::-webkit-scrollbar-thumb:horizontal {
+            background-color: rgba(136, 141, 152, 0.5) !important;
+            border-radius: 10px !important;
+            background-clip: content-box !important;
+            border: 2px solid transparent !important;
+        }
+
+        ::-webkit-resizer {
+            display: none !important;
+        }
+    </style>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/index.js?v=52"></script>
+</head>
+
+<body>
+
+    <div id="loading">
+        <div class="p1_dot1"></div>
+        <div class="p1_dot2"></div>
+        <div class="p1_Cherry">
+            <img src="img/1.png" class="Cherry1 flowerAni"
+                style="top: 13rem; animation-duration: 6s; animation-delay: 4s;">
+            <img src="img/2.png" class="Cherry2 flowerAni"
+                style="top: 13rem; animation-duration: 6s; animation-delay: 4s;">
+            <img src="img/3.png" class="Cherry3 flowerAni"
+                style="top: 13rem; animation-duration: 6.5s; animation-delay: 2s;">
+            <img src="img/4.png" class="Cherry4 flowerAni"
+                style="top: 20.1rem; animation-duration: 5s; animation-delay: 4s;">
+            <img src="img/4.png" class="Cherry5 flowerAni"
+                style="top: 20.1rem; animation-duration: 5s; animation-delay: 0s;">
+            <img src="img/3.png" class="Cherry6 flowerAni"
+                style="top: -8rem; animation-duration: 6.5s; animation-delay: 0s;">
+            <img src="img/2.png" class="Cherry7 flowerAni"
+                style="top: 13rem; animation-duration: 6.5s; animation-delay: 4s;">
+            <img src="img/1.png" class="Cherry8 flowerAni"
+                style="top: 10rem; animation-duration: 5s; animation-delay: 2s;">
+            <img src="img/3.png" class="Cherry9 flowerAni"
+                style="top: -18rem; animation-duration: 5s; animation-delay: 0s;">
+            <img src="img/1.png" class="Cherry10 flowerAni"
+                style="top: -18rem; animation-duration: 6.5s; animation-delay: 0s;">
+        </div>
+        <div class="p1_lantern"></div>
+        <div class="p1_logo"></div>
+        <div id="load">
+            <div class="p1_font">
+                <img src="img/Loading.png">
+                <img src="img/loading.gif">
+            </div>
+            <div class="p1_tree">
+                <img src="img/yinghua1.png" class="p1_tree1">
+                <img src="img/yinghua2.png" class="p1_tree2">
+            </div>
+        </div>
+        <div id="first">
+            <div id="begin_btn"></div>
+            <div class="myGift_btn"></div>
+            <div id="music">
+                <img src="img/yinyue1.png" class="musicOpen musicRotateAni">
+                <img src="img/yinyue2.png" class="musicClose">
+            </div>
+        </div>
+    </div>
+
+    <div id="game" class="gamePage">
+        <div id="parent">
+            <div id="mapBox" class="ui-draggable ui-draggable-handle" style="left: 46.9333rem; top: 10.7667rem;">
+                <div id="gamePerson">
+                    <img src="img/backLeft/1.png">
+                </div>
+                <div id="car1" class="carAni1"></div>
+                <div id="car2" class="carAni2"></div>
+                <div id="plane_box" class="planeAni">
+                    <!--飞机-->
+                    <div id="feiji"></div>
+                    <div id="plane_circle">
+                        <img src="img/feiji1.png">
+                    </div>
+                </div>
+                <div class="part1 part">
+                    <div id="changjing1" class="z23"></div>
+                    <div id="cloud" class="z24 cloudLeftRightAni1"></div>
+                    <div id="zhantai1" class="z19"></div>
+                    <div id="dawanglogo1" class="z23"></div>
+                    <div id="xinxingpai1" class="z25"></div>
+
+                    <!--彩旗和飘带-->
+                    <div id="qiuFlag1" class="z23 floatUpDownSmallAni1"></div>
+                    <div id="qiuFlag_y" class="z23 scale-sAni"></div>
+
+                    <!--小球和烟-->
+                    <div id="qiu_20" class="z23"></div>
+                    <div id="smoke" class="z23"></div>
+
+                    <div id="zhantai2" class="z18"></div>
+                    <div id="fangzi1" class="z25"></div>
+
+                    <!--两个小鱼旗-->
+                    <div id="feiyu1" class="z20 fishAni"></div>
+                    <div id="feiyu2" class="z20 fishAni"></div>
+                </div>
+
+                <div class="part2 part">
+                    <div id="fushishan" class="z1"></div>
+                    <div id="chengbao" class="z3"></div>
+                    <div id="niaobushi1" class="z27"></div>
+                    <div id="qinacaosi" class="z15"></div>
+                    <div id="damen1" class="z24"></div>
+                    <div id="xinxingpai2" class="z2"></div>
+                    <div id="penquan3" class="z11"></div>
+                    <div id="fengche2" class="z10"></div>
+                    <div id="fengche2_wind" class="z12">
+                        <img src="img/P1.png">
+                    </div>
+                    <div id="feiyu11" class="z20 fishAni"></div>
+                </div>
+
+                <div class="part3 part">
+                    <div id="niaobushi2" class="z11"></div>
+                    <div id="tieta1" class="z12"></div>
+                    <div id="xinxingpai22" class="z12"></div>
+                    <div id="xinxingpai23" class="z10"></div>
+                    <!--摩天轮-->
+                    <div id="wheelBig" class="z13"></div>
+
+                    <!--风车1-->
+                    <div id="fengche22" class="z13"></div>
+                    <div id="fengche2_arm" class="z14">
+                        <img src="img/P1.png">
+                    </div>
+                </div>
+
+                <div class="part4 part">
+                    <div id="zhantai" class="z4"></div>
+                    <div id="guanggaopai1" class="z7"></div>
+                    <div id="dawanggongchang" class="z8"></div>
+                    <div id="penquan1" class="z16"></div>
+                    <div id="penquan2" class="z13"></div>
+                    <div id="niaobushi3" class="z15"></div>
+                    <div id="yinghuadao" class="z27"></div>
+                    <div id="shu1" class="z5"></div>
+                    <div id="taiyang"></div>
+                    <!--两个小鱼旗-->
+                    <div id="p4_feiyu1" class="z20 fishAni"></div>
+                    <div id="p4_feiyu2" class="z20 fishAni"></div>
+
+                    <!--尿不湿-->
+                    <div id="daniaobu" class="z9"></div>
+                    <div id="suncircle" class="z10 suncircleAni"></div>
+                    <div id="xiaoniaobu" class="z9 floatUpDownAni1"></div>
+                    <div id="xiaoniaobu1" class="z9 floatUpDownAni2"></div>
+                    <div id="qiqiu1" class="z9 floatUpDownSmallAni1"></div>
+                    <div id="qiqiu2" class="z9 floatUpDownSmallAni2"></div>
+
+                    <div id="p4_cloud1" class="z5 cloudLeftRightAni1"></div>
+                    <div id="p4_cloud2" class="z5"></div>
+                    <div id="p4_cloud3" class="z5"></div>
+
+                </div>
+                <div class="part5 part">
+                    <!--风车-->
+                    <div id="fengche1" class="z27"></div>
+                    <div id="fengche1_arm" class="z28">
+                        <img src="img/P1.png">
+                    </div>
+
+                    <div id="reqiqiu1" class="z28 floatUpDownAni2"></div>
+                    <div id="reqiqiu2" class="z28 floatUpDownAni2"></div>
+                    <div id="reqiqiu3" class="z28 floatUpDownAni1"></div>
+                    <div id="qiting1" class="z28 floatUpDownAni2"></div>
+                    <div id="qiting2" class="z28 floatUpDownAni1"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--骰子-->
+        <div id="diceBox">
+            <img src="img/dianshu/1.png" id="dice1">
+            <img src="img/dianshu/2.png" id="dice2">
+            <div id="diceNum">
+                <img src="img/33.png">
+            </div>
+        </div>
+    </div>
+
+    <div id="music_control">
+        <img src="img/yinyue1.png" class="musicOpen musicRotateAni">
+        <img src="img/yinyue2.png" class="musicClose">
+        <img src="img/guize.png" id="ruleBtn">
+    </div>
+
+    <div id="alertPage">
+        <div id="product" class="alertBox">
+            <div class="product_box">
+                <img src="img/chanpin1.png" id="product_num">
+                <div class="close"></div>
+            </div>
+        </div>
+        <div id="award" class="alertBox">
+            <div class="award_box">
+                <img src="img/jiangpin1.png" id="award_num">
+                <img src="img/caidai.png" id="award_caidai">
+                <div class="close"></div>
+            </div>
+            <div id="award_btn">
+                <img src="img/lingqu.png" id="award_btn_vv">
+                <img src="img/shiwu.png" id="award_btn_ss">
+                <img src="img/noPrize.png" id="award_btn_nn">
+            </div>
+        </div>
+        <div id="rulePage" class="alertBox">
+            <div class="rulePage_box">
+                <div id="ruleWrap">
+                    <img src="img/guize2.png" id="rule_content">
+                </div>
+            </div>
+            <div class="close"></div>
+        </div>
+
+        <div id="drawCircle" class="alertBox">
+            <div class="drawCircle_box">
+                <img src="img/zhizhen.png" id="draw_needle">
+                <img src="img/anniu.png" id="draw_btn">
+            </div>
+        </div>
+        <div id="writeMessage" class="alertBox">
+            <div class="award_box">
+                <img src="img/shuru.png" id="write_num">
+                <div class="close"></div>
+                <input type="text" placeholder="请输入姓名" id="username">
+                <input type="number" placeholder="请输入联系方式" id="phonenumber">
+            </div>
+            <div id="submit_btn"></div>
+        </div>
+        <div id="endPage" class="alertBox">
+            <div id="play_again"></div>
+            <div class="myGift_btn"></div>
+        </div>
+    </div>
+
+    <div id="myBox">
+        <div class="p1_dot1"></div>
+        <div class="p1_dot2"></div>
+        <div id="giftWrap">
+            <div>
+                <img src="img/40.png" id="quan40">
+                <img src="img/110.png" id="quan110">
+                <img src="img/120.png" id="quan120">
+                <img src="img/150.png" id="quan150">
+                <img src="img/libao.png" id="libao">
+                <img src="img/ipad.png" id="ipad">
+                <img src="img/dajiang.png" id="dajiang">
+            </div>
+        </div>
+        <img src="img/font.png" class="gg_f">
+        <img src="img/fanhui.png" id="gg_back">
+    </div>
+
+    <div id="share_mask">
+        <div class="share_mask_img"></div>
+    </div>
+
+
+</body>
+
+</html>

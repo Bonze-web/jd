@@ -1,0 +1,676 @@
+/*旗帜影子缩放*/
+@keyframes scale-s
+{
+    0%   {transform: scale3d(1,1,1);}
+    100%   {transform: scale3d(0.8,0.8,0.8);}
+}
+@-moz-keyframes scale-s /* Firefox */
+{
+    0%   {-moz-transform: scale3d(1,1,1);}
+    100%   {-moz-transform: scale3d(0.8,0.8,0.8);}
+}
+@-webkit-keyframes scale-s /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: scale3d(1,1,1);}
+    100%   {-webkit-transform: scale3d(0.8,0.8,0.8);}
+}
+@-o-keyframes scale-s /* Opera */
+{
+    0%   {-o-transform: scale3d(1,1,1);}
+    100%   {-o-transform: scale3d(0.8,0.8,0.8);}
+}
+.scale-sAni{
+    animation: scale-s 1.5s alternate infinite ease-in-out;
+    -moz-animation: scale-s 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: scale-s 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: scale-s 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+@keyframes floatUpDownSmall1
+{
+    0%   {transform: translateY(0);}
+    100%   {transform: translateY(-0.5rem);}
+}
+@-moz-keyframes floatUpDownSmall1 /* Firefox */
+{
+    0%   {-moz-transform: translateY(0);}
+    100%   {-moz-transform: translateY(-0.5rem);}
+}
+@-webkit-keyframes floatUpDownSmall1 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateY(0);}
+    100%   {-webkit-transform: translateY(-0.5rem);}
+}
+@-o-keyframes floatUpDownSmall1 /* Opera */
+{
+    0%   {-o-transform: translateY(0);}
+    100%   {-o-transform: translateY(-0.5rem);}
+}
+.floatUpDownSmallAni1{
+    animation: floatUpDownSmall1 1.5s alternate infinite ease-in-out;
+    -moz-animation: floatUpDownSmall1 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: floatUpDownSmall1 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: floatUpDownSmall1 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+/*上下浮动*/
+@keyframes floatUpDownSmall2
+{
+    0%   {transform: translateY(0);}
+    100%   {transform: translateY(0.5rem);}
+}
+@-moz-keyframes floatUpDownSmall2 /* Firefox */
+{
+    0%   {-moz-transform: translateY(0);}
+    100%   {-moz-transform: translateY(0.5rem);}
+}
+@-webkit-keyframes floatUpDownSmall2 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateY(0);}
+    100%   {-webkit-transform: translateY(0.5rem);}
+}
+@-o-keyframes floatUpDownSmall2 /* Opera */
+{
+    0%   {-o-transform: translateY(0);}
+    100%   {-o-transform: translateY(0.5rem);}
+}
+.floatUpDownSmallAni2{
+    animation: floatUpDownSmall2 1.5s alternate infinite ease-in-out;
+    -moz-animation: floatUpDownSmall2 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: floatUpDownSmall2 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: floatUpDownSmall2 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+/*浮动1*/
+@keyframes floatUpDown1
+{
+    0%   {transform: translateY(0);}
+    100%   {transform: translateY(-0.8rem);}
+}
+@-moz-keyframes floatUpDown1 /* Firefox */
+{
+    0%   {-moz-transform: translateY(0);}
+    100%   {-moz-transform: translateY(-0.8rem);}
+}
+@-webkit-keyframes floatUpDown1 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateY(0);}
+    100%   {-webkit-transform: translateY(-0.8rem);}
+}
+@-o-keyframes floatUpDown1 /* Opera */
+{
+    0%   {-o-transform: translateY(0);}
+    100%   {-o-transform: translateY(-0.8rem);}
+}
+.floatUpDownAni1{
+    animation: floatUpDown1 1.5s alternate infinite ease-in-out;
+    -moz-animation: floatUpDown1 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: floatUpDown1 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: floatUpDown1 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+
+/*上下浮动*/
+@keyframes floatUpDown2
+{
+    0%   {transform: translateY(0);}
+    100%   {transform: translateY(0.8rem);}
+}
+@-moz-keyframes floatUpDown2 /* Firefox */
+{
+    0%   {-moz-transform: translateY(0);}
+    100%   {-moz-transform: translateY(0.8rem);}
+}
+@-webkit-keyframes floatUpDown2 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateY(0);}
+    100%   {-webkit-transform: translateY(0.8rem);}
+}
+@-o-keyframes floatUpDown2 /* Opera */
+{
+    0%   {-o-transform: translateY(0);}
+    100%   {-o-transform: translateY(0.8rem);}
+}
+.floatUpDownAni2{
+    animation: floatUpDown2 1.5s alternate infinite ease-in-out;
+    -moz-animation: floatUpDown2 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: floatUpDown2 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: floatUpDown2 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+/*尿不湿的光圈*/
+@keyframes suncircle
+{
+    0% {
+        transform: translateY(0) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+    25% {
+        transform: translateY(-0.2rem) scale3d(1,1,1);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(-0.7rem) scale3d(1.05,1.05,1.05);
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-1.4rem) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+}
+@-webkit-keyframes suncircle /* Safari 和 Chrome */
+{
+    0% {
+        -webkit-transform: translateY(0) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+    25% {
+        -webkit-transform: translateY(-0.2rem) scale3d(1,1,1);
+        opacity: 1;
+    }
+    50% {
+        -webkit-transform: translateY(-0.7rem) scale3d(1.05,1.05,1.05);
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(-1.4rem) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+}
+@-o-keyframes suncircle /* Opera */
+{
+    0% {
+        -o-transform: translateY(0) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+    25% {
+        -o-transform: translateY(-0.2rem) scale3d(1,1,1);
+        opacity: 1;
+    }
+    50% {
+        -o-transform: translateY(-0.7rem) scale3d(1.05,1.05,1.05);
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100% {
+        -o-transform: translateY(-1.4rem) scale3d(1,1,1);
+        opacity: 0.2;
+    }
+}
+.suncircleAni{
+    animation: suncircle 3s infinite linear;
+    -moz-animation: suncircle 3s infinite linear;    /* Firefox */
+    -webkit-animation: suncircle 3s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: suncircle 3s infinite linear;    /* Opera */
+}
+
+/*云朵左右浮动*/
+@keyframes cloudLeftRight1
+{
+    0%   {transform: translateX(0);}
+    100%   {transform: translateX(0.8rem);}
+}
+@-moz-keyframes cloudLeftRight1 /* Firefox */
+{
+    0%   {-moz-transform: translateX(0);}
+    100%   {-moz-transform: translateX(0.8rem);}
+}
+@-webkit-keyframes cloudLeftRight1 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0);}
+    100%   {-webkit-transform: translateX(0.8rem);}
+}
+@-o-keyframes cloudLeftRight1 /* Opera */
+{
+    0%   {-o-transform: translateX(0);}
+    100%   {-o-transform: translateX(0.8rem);}
+}
+.cloudLeftRightAni1{
+    animation: cloudLeftRight1 1.5s alternate infinite ease-in-out;
+    -moz-animation: cloudLeftRight1 1.5s alternate infinite ease-in-out;    /* Firefox */
+    -webkit-animation: cloudLeftRight1 1.5s alternate infinite ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: cloudLeftRight1 1.5s alternate infinite ease-in-out;    /* Opera */
+}
+
+/*小鱼旗帜浮动*/
+@keyframes fishFloat
+{
+    0%   {transform: rotate(8deg);}
+    100%   {transform: rotate(-8deg);}
+}
+@-moz-keyframes fishFloat /* Firefox */
+{
+    0%   {-moz-transform: rotate(8deg);}
+    100%   {-moz-transform: rotate(-8deg);}
+}
+@-webkit-keyframes fishFloat /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(8deg);}
+    100%   {-webkit-transform: rotate(-8deg);}
+}
+@-o-keyframes fishFloat /* Opera */
+{
+    0%   {-o-transform: rotate(8deg);}
+    100%   {-o-transform: rotate(-8deg);}
+}
+/*.fishFloatAni{*/
+    /*animation: fishFloat 1.8s alternate infinite ease-in-out;*/
+    /*-moz-animation: fishFloat 1.8s alternate infinite ease-in-out;    !* Firefox *!*/
+    /*-webkit-animation: fishFloat 1.8s alternate infinite ease-in-out;    !* Safari 和 Chrome *!*/
+    /*-o-animation: fishFloat 1.8s alternate infinite ease-in-out;    !* Opera *!*/
+/*}*/
+
+/*小车2的运动*/
+@keyframes car2
+{
+    0%   {transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {transform: translateX(0) translateY(0);opacity: 1;}
+    99%   {transform: translateX(50rem) translateY(28.45rem);opacity: 1;}
+    100%   {transform: translateX(50rem) translateY(28.45rem);opacity: 0;}
+}
+@-moz-keyframes car2 /* Firefox */
+{
+    0%   {-moz-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-moz-transform: translateX(0) translateY(0);opacity: 1;}
+    99%   {-moz-transform: translateX(50rem) translateY(28.45rem);opacity: 1;}
+    100%   {-moz-transform: translateX(50rem) translateY(28.45rem);opacity: 0;}
+}
+@-webkit-keyframes car2 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-webkit-transform: translateX(0) translateY(0);opacity: 1;}
+    99%   {-webkit-transform: translateX(50rem) translateY(28.45rem);opacity: 1;}
+    100%   {-webkit-transform: translateX(50rem) translateY(28.45rem);opacity: 0;}
+}
+@-o-keyframes car2 /* Opera */
+{
+    0%   {-o-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-o-transform: translateX(0) translateY(0);opacity: 1;}
+    99%   {-o-transform: translateX(50rem) translateY(28.45rem);opacity: 1;}
+    100%   {-o-transform: translateX(50rem) translateY(28.45rem);opacity: 0;}
+}
+.carAni2{
+    animation: car2 6s infinite linear;
+    -moz-animation: car2 6s infinite linear;    /* Firefox */
+    -webkit-animation: car2 6s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: car2 6s infinite linear;    /* Opera */
+}
+
+/*小车1的运动*/
+@keyframes car1
+{
+    0%   {transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {transform: translateX(0) translateY(0);opacity: 1;}
+    90%   {transform: translateX(-24.34rem) translateY(14rem);opacity: 1;}
+    100%   {transform: translateX(-24.34rem) translateY(14rem);opacity: 0;}
+}
+@-moz-keyframes car1 /* Firefox */
+{
+    0%   {-moz-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-moz-transform: translateX(0) translateY(0);opacity: 1;}
+    90%   {-moz-transform: translateX(-24.34rem) translateY(14rem);opacity: 1;}
+    100%   {-moz-transform: translateX(-24.34rem) translateY(14rem);opacity: 0;}
+}
+@-webkit-keyframes car1 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-webkit-transform: translateX(0) translateY(0);opacity: 1;}
+    90%   {-webkit-transform: translateX(-24.34rem) translateY(14rem);opacity: 1;}
+    100%   {-webkit-transform: translateX(-24.34rem) translateY(14rem);opacity: 0;}
+}
+@-o-keyframes car1 /* Opera */
+{
+    0%   {-o-transform: translateX(0) translateY(0);opacity: 0;}
+    10%   {-o-transform: translateX(0) translateY(0);opacity: 1;}
+    90%   {-o-transform: translateX(-24.34rem) translateY(14rem);opacity: 1;}
+    100%   {-o-transform: translateX(-24.34rem) translateY(14rem);opacity: 0;}
+}
+.carAni1{
+    animation: car1 4.5s infinite linear;
+    -moz-animation: car1 4.5s infinite linear;    /* Firefox */
+    -webkit-animation: car1 4.5s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: car1 4.5s infinite linear;    /* Opera */
+}
+
+/*直升飞机的运动*/
+@keyframes plane
+{
+    0%   {transform: translateX(0) translateY(0);}
+    100%   {transform: translateX(68rem) translateY(30rem);}
+}
+@-moz-keyframes plane /* Firefox */
+{
+    0%   {-moz-transform: translateX(0) translateY(0);}
+    100%   {-moz-transform: translateX(68rem) translateY(30rem);}
+}
+@-webkit-keyframes plane /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0) translateY(0);}
+    100%   {-webkit-transform: translateX(68rem) translateY(30rem);}
+}
+@-o-keyframes plane /* Opera */
+{
+    0%   {-o-transform: translateX(0) translateY(0);}
+    100%   {-o-transform: translateX(68rem) translateY(30rem);}
+}
+.planeAni{
+    animation: plane 12s infinite linear;
+    -moz-animation: plane 12s infinite linear;    /* Firefox */
+    -webkit-animation: plane 12s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: plane 12s infinite linear;    /* Opera */
+}
+
+/*直升飞机的运动*/
+@keyframes plane
+{
+    0%   {transform: translateX(0) translateY(0);}
+    100%   {transform: translateX(68rem) translateY(30rem);}
+}
+@-moz-keyframes plane /* Firefox */
+{
+    0%   {-moz-transform: translateX(0) translateY(0);}
+    100%   {-moz-transform: translateX(68rem) translateY(30rem);}
+}
+@-webkit-keyframes plane /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0) translateY(0);}
+    100%   {-webkit-transform: translateX(68rem) translateY(30rem);}
+}
+@-o-keyframes plane /* Opera */
+{
+    0%   {-o-transform: translateX(0) translateY(0);}
+    100%   {-o-transform: translateX(68rem) translateY(30rem);}
+}
+.planeAni{
+    animation: plane 12s infinite linear;
+    -moz-animation: plane 12s infinite linear;    /* Firefox */
+    -webkit-animation: plane 12s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: plane 12s infinite linear;    /* Opera */
+}
+
+/*樱花瓣的运动*/
+@keyframes flower
+{
+    0%   {transform: translateX(0) translateY(0);}
+    30%   {transform: translateX(6rem) translateY(9rem);}
+    50%   {transform: translateX(12rem) translateY(14rem);}
+    68%   {transform: translateX(18rem) translateY(18rem);}
+    85%   {transform: translateX(24rem) translateY(22rem);}
+    97%   {transform: translateX(30rem) translateY(24rem);}
+    98%   {transform: translateX(30rem) translateY(25rem);opacity: 0;}
+    99%   {transform: translateX(0) translateY(0);opacity: 0;}
+    100%   {transform: translateX(0) translateY(0);opacity: 1;}
+}
+@-moz-keyframes flower /* Firefox */
+{
+    0%   {-moz-transform: translateX(0) translateY(0);}
+    30%   {-moz-transform: translateX(6rem) translateY(9rem);}
+    50%   {-moz-transform: translateX(12rem) translateY(14rem);}
+    68%   {-moz-transform: translateX(18rem) translateY(18rem);}
+    85%   {-moz-transform: translateX(24rem) translateY(22rem);}
+    97%   {-moz-transform: translateX(30rem) translateY(24rem);}
+    98%   {-moz-transform: translateX(30rem) translateY(25rem);opacity: 0;}
+    99%   {-moz-transform: translateX(0) translateY(0);opacity: 0;}
+    100%   {-moz-transform: translateX(0) translateY(0);opacity: 1;}
+}
+@-webkit-keyframes flower /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: translateX(0) translateY(0);}
+    30%   {-webkit-transform: translateX(6rem) translateY(9rem);}
+    50%   {-webkit-transform: translateX(12rem) translateY(14rem);}
+    68%   {-webkit-transform: translateX(18rem) translateY(18rem);}
+    85%   {-webkit-transform: translateX(24rem) translateY(22rem);}
+    97%   {-webkit-transform: translateX(30rem) translateY(24rem);}
+    98%   {-webkit-transform: translateX(30rem) translateY(25rem);opacity: 0;}
+    99%   {-webkit-transform: translateX(0) translateY(0);opacity: 0;}
+    100%   {-webkit-transform: translateX(0) translateY(0);opacity: 1;}
+}
+@-o-keyframes flower /* Opera */
+{
+    0%   {-o-transform: translateX(0) translateY(0);}
+    30%   {-o-transform: translateX(6rem) translateY(9rem);}
+    50%   {-o-transform: translateX(12rem) translateY(14rem);}
+    68%   {-o-transform: translateX(18rem) translateY(18rem);}
+    85%   {-o-transform: translateX(24rem) translateY(22rem);}
+    97%   {-o-transform: translateX(30rem) translateY(24rem);}
+    98%   {-o-transform: translateX(30rem) translateY(25rem);opacity: 0;}
+    99%   {-o-transform: translateX(0) translateY(0);opacity: 0;}
+    100%   {-o-transform: translateX(0) translateY(0);opacity: 1;}
+}
+.flowerAni{
+    animation: flower 5s 1s infinite linear;
+    -moz-animation: flower 5s 1s infinite linear;    /* Firefox */
+    -webkit-animation: flower 5s 1s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: flower 5s 1s infinite linear;    /* Opera */
+}
+
+@keyframes musicRotate
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(360deg);}
+}
+@-moz-keyframes musicRotate /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(360deg);}
+}
+@-webkit-keyframes musicRotate /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(360deg);}
+}
+@-o-keyframes musicRotate /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(360deg);}
+}
+.musicRotateAni{
+    animation: musicRotate 3s infinite linear;
+    -moz-animation: musicRotate 3s infinite linear;    /* Firefox */
+    -webkit-animation: musicRotate 3s infinite linear;    /* Safari 和 Chrome */
+    -o-animation: musicRotate 3s infinite linear;    /* Opera */
+}
+
+/*转盘抽奖 40元优惠券*/
+@keyframes quan40
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1100deg);}
+}
+@-moz-keyframes quan40 /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1100deg);}
+}
+@-webkit-keyframes quan40 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1100deg);}
+}
+@-o-keyframes quan40 /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1100deg);}
+}
+.quan40Ani{
+    animation: quan40 2.2s forwards ease-in-out;
+    -moz-animation: quan40 2.2s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: quan40 2.2s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: quan40 2.2s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 110元优惠券*/
+@keyframes quan110
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1283deg);}
+}
+@-moz-keyframes quan110 /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1283deg);}
+}
+@-webkit-keyframes quan110 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1283deg);}
+}
+@-o-keyframes quan110 /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1283deg);}
+}
+.quan110Ani{
+    animation: quan110 2.3s forwards ease-in-out;
+    -moz-animation: quan110 2.3s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: quan110 2.3s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: quan110 2.3s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 120元优惠券*/
+@keyframes quan120
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1191deg);}
+}
+@-moz-keyframes quan120 /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1191deg);}
+}
+@-webkit-keyframes quan120 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1191deg);}
+}
+@-o-keyframes quan120 /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1191deg);}
+}
+.quan120Ani{
+    animation: quan120 2.2s forwards ease-in-out;
+    -moz-animation: quan120 2.2s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: quan120 2.2s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: quan120 2.2s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 150元优惠券*/
+@keyframes quan150
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(970deg);}
+}
+@-moz-keyframes quan150 /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(970deg);}
+}
+@-webkit-keyframes quan150 /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(970deg);}
+}
+@-o-keyframes quan150 /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(970deg);}
+}
+.quan150Ani{
+    animation: quan150 2s forwards ease-in-out;
+    -moz-animation: quan150 2s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: quan150 2s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: quan150 2s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 纸品礼包*/
+@keyframes awardPaper
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1150deg);}
+}
+@-moz-keyframes awardPaper /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1150deg);}
+}
+@-webkit-keyframes awardPaper /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1150deg);}
+}
+@-o-keyframes awardPaper /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1150deg);}
+}
+.awardPaperAni{
+    animation: awardPaper 2.2s forwards ease-in-out;
+    -moz-animation: awardPaper 2.2s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: awardPaper 2.2s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: awardPaper 2.2s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 ipad*/
+@keyframes awardIpad
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1238deg);}
+}
+@-moz-keyframes awardIpad /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1238deg);}
+}
+@-webkit-keyframes awardIpad /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1238deg);}
+}
+@-o-keyframes awardIpad /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1238deg);}
+}
+.awardIpadAni{
+    animation: awardIpad 2.3s forwards ease-in-out;
+    -moz-animation: awardIpad 2.3s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: awardIpad 2.3s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: awardIpad 2.3s forwards ease-in-out;    /* Opera */
+}
+
+/*转盘抽奖 未中奖*/
+@keyframes noAward
+{
+    0%   {transform: rotate(0deg);}
+    100%   {transform: rotate(1013deg);}
+}
+@-moz-keyframes noAward /* Firefox */
+{
+    0%   {-moz-transform: rotate(0deg);}
+    100%   {-moz-transform: rotate(1013deg);}
+}
+@-webkit-keyframes noAward /* Safari 和 Chrome */
+{
+    0%   {-webkit-transform: rotate(0deg);}
+    100%   {-webkit-transform: rotate(1013deg);}
+}
+@-o-keyframes noAward /* Opera */
+{
+    0%   {-o-transform: rotate(0deg);}
+    100%   {-o-transform: rotate(1013deg);}
+}
+.noAwardAni{
+    animation: noAward 2s forwards ease-in-out;
+    -moz-animation: noAward 2s forwards ease-in-out;    /* Firefox */
+    -webkit-animation: noAward 2s forwards ease-in-out;    /* Safari 和 Chrome */
+    -o-animation: noAward 2s forwards ease-in-out;    /* Opera */
+}
